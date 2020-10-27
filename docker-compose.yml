@@ -1,0 +1,9 @@
+version: '3.7'
+
+services: 
+    web-client:
+        build:
+            context: .
+            dockerfile: ./web-client/Dockerfile
+        ports: 
+            - "80"
